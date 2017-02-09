@@ -1,0 +1,7 @@
+[push]
+	default = simple
+[user]
+	name = Alexander Morley
+	email = alexander.morley@univ.ox.ac.uk
+[core]
+	askpass = ""

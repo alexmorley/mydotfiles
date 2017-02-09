@@ -1,0 +1,8 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =6
+let g:netrw_dirhist_1='/home/data/alexmorley.github.io/_posts'
+let g:netrw_dirhist_2='/home/data/alexmorley.github.io/scienceblog'
+let g:netrw_dirhist_3='/home/data/alexmorley.github.io/_layouts'
+let g:netrw_dirhist_4='/home/data/alexmorley.github.io/_includes'
+let g:netrw_dirhist_5='/home/data/alexmorley.github.io'
+let g:netrw_dirhist_6='/home/data/mountainlab/examples/003_kron_mountainsort/examples/example1'
