@@ -36,3 +36,7 @@ alias vim='vimx'
 alias nodejs='node'
 export PATH=/home/data/Qt/5.8/gcc_64/bin:$PATH
 export PATH=/home/data/mountainlab/bin:$PATH
+
+# especially important for ctl-X ctl-E bindings
+export VISUAL=vim
+export EDITOR="$VISUAL"
