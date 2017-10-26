@@ -10,19 +10,21 @@ fi
 
 # User specific aliases and functions
 
-# d1 path additions
-DDPATH=/ddLab/code
-source $DDPATH/Config/ddLabPaths
+### aliases  ###
+alias chrome='google-chrome &>/dev/null'
+alias vim='vimx'
+alias nodejs='node'
 
-# add ddHub code
-source /ddHub/PATHS
+alias gitu='git add .; git commit -m \"update\"'
+alias gitup='git add .; git commit -m \"update\"; git push'
+
+### PATHS ###
 
 # virtual environment wrapper for python
 export WORKON_HOME=$HOME/.python_virtual_environments
 export PIP_VIRTUALENV_BASE=$WORKON_HOME
 export PIP_RESPECT_VIRTUALENV=true
 #source /usr/bin/virtualenvwrapper.sh
-
 
 export PATH=/home/data/Local/bin:$PATH
 export PATH=/usr/local/MATLAB/R2015a/bin/:$PATH
@@ -31,12 +33,18 @@ export PYTHONPATH=/home/data/Local/brimport/:/home/data/python_packages:$PYTHONP
 export LD_LIBRARY_PATH="$LD_LIBRARY_PATH:/usr/local/cuda/lib64" 
 export CUDA_HOME=/usr/local/cuda
 
-alias chrome='google-chrome &>/dev/null'
-alias vim='vimx'
-alias nodejs='node'
+# Qt & Spike Sorting thungs
 export PATH=/home/data/Qt/5.8/gcc_64/bin:$PATH
 export PATH=/home/data/mountainlab/bin:$PATH
 
 # especially important for ctl-X ctl-E bindings
 export VISUAL=vim
 export EDITOR="$VISUAL"
+
+# ddLab path additions
+DDPATH=/ddLab/code
+source $DDPATH/Config/ddLabPaths
+
+# add ddHub code
+source /ddHub/PATHS
+
